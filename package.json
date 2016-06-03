@@ -4,8 +4,8 @@
   "description": "Generates random key-secret pair with sha256 hash, with salt",
   "main": "./lib/index.js",
   "bin": {
-    "rhg": "./bin/random-hash-generator",
-    "random-hash-generator": "./bin/random-hash-generator"
+    "rhg": "./bin/random-hash-generator.js",
+    "random-hash-generator": "./bin/random-hash-generator.js"
   },
   "scripts": {
     "test": "eslint lib && mocha"
