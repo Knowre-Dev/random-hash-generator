@@ -1,5 +1,8 @@
+2016.06.06, Version 1.0.3
+ * Upgrade: Upgraded dependencies
+
 2016.06.03, Version 1.0.2
- * Fixed CLI bug
+ * Fix: Fixed CLI bug
 
 2016.06.03, Version 1.0.0
  * First official release

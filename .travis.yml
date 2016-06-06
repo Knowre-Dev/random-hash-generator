@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "5.7.0"
-  - "5.0.0"
-  - "4.3.1"
+  - "6.2.1"
+  - "6.0.0"
+  - "4.4.5"
   - "4.0.0"
 deploy:
   provider: npm
@@ -11,4 +11,4 @@ deploy:
     secure: "w9pVFbZwVGPcFKwLJpxrl81CkvIkPn4b7mBkYWZyLKxRqfQ616VxzbIWESKN+sw//Srrdra9zVaMJklCE2C+PijBGLS4mnOvJyzOXEwBEUMe3O86pAyPdKKbLdhyDL9aJiLYgyIOT7X6oeHqvZYGOUribrzPs+ysF2Daouy/qgomsx9Ogr4Whk53+Xx0fKqxkFkrek2hlfDQ1naqRAdDt1QP52civPsCWyvsvW1VSKvYNGpNo8LpfZe4tPfFGFTDs84YYZWz51XFZLBHTvx8IpuUr27XLxfE+LFZKS4ylWKTIxOzFbJC9k1unD2glfg7y5uq0CB9RwwzGuPj2EfZkGlM0gVw0zhjBTYTV+3jKC5p90IAmD8b4vY0AS0Sm0q+VfjCLoQ+4Ws/FM04Y1Ntcw3u6vLQ91yUymBOkrmxzqc5/IKPxYhUEAExk1+sDFToC1+O40JB6zAqY/NqpGEwtknrOySxhaVpMflu9ccBvmVsBNqrjtEBO4KmGoF3IzGjoYYhvDFzuYkl9ftjxNPZ3ggvxGz9nwPMnnKbdeV9iTO8qEjJesxounfxSchG6DmRVSyUmOUAaLy+ezChuzWQul9xGfy797h8uPZmtBvH2xnWgH3aJa2DHSPJBhjt0hByhSoJCumZVo/jFMfFG41Z5+vUmkvenQegOoc8hkeitoc="
   on:
     branch: stable
-    node_js: "5.7.0"
+    node_js: "6.2.1"
