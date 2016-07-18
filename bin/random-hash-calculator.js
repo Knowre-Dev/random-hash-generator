@@ -4,13 +4,11 @@
 
 var argv = require('minimist')(process.argv.slice(2), {
 		default: {
-			number: 1,
-			key: 15,
+			key: 'AAAAAAAAAAAAAAA',
 			secret: 25,
 			salt: 'ShotMeBowmore'
 		},
 		alias: {
-			number: 'n',
 			key: 'k',
 			secret: 's',
 			salt: 't',
@@ -22,11 +20,10 @@ var rhg = require('../lib/index.js');
 
 if (argv.help) {
 	console.log('[Usage]');
-	console.log('$ rhg --number 1 --key 15 --secret 25 --salt ShotMeBowmore');
+	console.log('$ rhc --key AAAAAAAAAAAAAAA --secret 25 --salt ShotMeBowmore');
 	console.log('');
 	console.log('[Options]');
-	console.log('--number, -n: Number of key/secret pairs to generate');
-	console.log('--key, -k: Length of key string');
+	console.log('--key, -k: Key string');
 	console.log('--secret, -s: Length of secret string');
 	console.log('--salt, -t: Specifying salt string');
 	console.log('--help, -h: This message');
@@ -35,8 +32,7 @@ if (argv.help) {
 
 
 for(var i = 0; i < argv.number; i++) {
-	var generated = rhg.generate(argv.key, argv.secret, argv.salt);
-	console.log('Key   :', generated.key);
-	console.log('Secret:', generated.secret);
+	var generated = rhg.calc(argv.key, argv.secret, argv.salt);
+	console.log('Secret:', generated);
 	console.log('');
 }

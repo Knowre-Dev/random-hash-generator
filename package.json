@@ -5,7 +5,9 @@
   "main": "./lib/index.js",
   "bin": {
     "rhg": "./bin/random-hash-generator.js",
-    "random-hash-generator": "./bin/random-hash-generator.js"
+    "rhc": "./bin/random-hash-calc.js",
+    "random-hash-generator": "./bin/random-hash-generator.js",
+    "random-hash-calculator": "./bin/random-hash-calc.js"
   },
   "scripts": {
     "test": "eslint lib && mocha"
