@@ -31,8 +31,6 @@ if (argv.help) {
 }
 
 
-for(var i = 0; i < argv.number; i++) {
-	var generated = rhg.calc(argv.key, argv.secret, argv.salt);
-	console.log('Secret:', generated);
-	console.log('');
-}
+var generated = rhg.calc(argv.key, argv.secret, argv.salt);
+console.log('Secret:', generated);
+console.log('');
