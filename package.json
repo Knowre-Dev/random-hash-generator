@@ -1,6 +1,6 @@
 {
   "name": "random-hash-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generates random key-secret pair with sha256 hash, with salt",
   "main": "./lib/index.js",
   "bin": {
