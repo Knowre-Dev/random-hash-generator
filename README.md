@@ -1,4 +1,6 @@
 # random-hash-generator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Knowre-Dev/random-hash-generator.svg)](https://greenkeeper.io/)
 Generates random key-secret pair with sha256 hash, with salt
 
 ## Installation
