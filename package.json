@@ -34,7 +34,7 @@
     "randomstring": "^1.1.5"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "eslint": "^2.2.0"
+    "mocha": "^3.4.2",
+    "eslint": "^3.19.0"
   }
 }
